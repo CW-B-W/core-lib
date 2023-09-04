@@ -56,7 +56,7 @@ typedef double cy_float64_t; /**< Specific-length typedef for the basic numerica
  */
 static inline void CY_HALT(void)
 {
-    __asm("    bkpt    1");
+    // __asm("    bkpt    1");
 }
 
 
